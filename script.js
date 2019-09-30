@@ -66,23 +66,9 @@ for (let i = 0; i< el.length; i++) {
 	}
 }
 
-//add effect animation
-
-/*animation-delay: 20s;*/
-
-// let animate = ['animation-delay:'];
 
 
-// console.log(block.length);
-// for (let i=0; i < block.length; i++) {
-// 	let add_delay = `${animate[0]} ${i}s;`;
-// 	block[i].style = add_delay;
-
-// }
-
-
-
-
+//Jquery
 //count
 $( function () {
   let
@@ -100,10 +86,6 @@ $( function () {
   
   block.text( count );
 } );
-
-
-
-
 
 //animate download page
 $(window).ready(function(){
