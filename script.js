@@ -17,6 +17,7 @@ for(let i=0; i < main.length; i++)
 	menu.classList.add('block__second_listMenu');
 	main[i].appendChild(menu);
 	displaNone = list_menu[i].style.display = "none";
+	block[i].style.display = "none";
 
 
 	// add ul to div

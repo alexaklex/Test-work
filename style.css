@@ -1,5 +1,13 @@
+@font-face {
+  font-family: "roboto-regular";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./fonts/Roboto-Regular.eot");
+  src: url("./fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
 body {
-	font-family: sans-serif;
+	font-family: "roboto-regular";
 	background: #E6EDF2;
 	padding: 7px;
 }
@@ -269,7 +277,6 @@ background-color: #e4edf3;
 	border-left: 4px solid #CADBE7;
 }
 .block__second_one {
-	display: none;
 	animation-duration: 2s;
 	/*animation-delay: 20s;*/
 	/*animation-iteration-count: infinite;*/
